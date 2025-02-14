@@ -33,10 +33,8 @@ const toolsData = [
     { name: "Vercel", logo: "https://skillicons.dev/icons?i=vercel" },
     { name: "NPM", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" },
     { name: "Postman", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
-
-    // ✅ SweetAlert2 & Toastify Added
-    { name: "SweetAlert2", logo: "https://sweetalert2.github.io/images/SweetAlert2.png" },
-    { name: "Toastify", logo: "https://user-images.githubusercontent.com/5574267/54994574-df4c1380-4fc4-11e9-8509-1d3aedbc7b96.png" }
+    { name: "VsCode", logo: "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" },
+    { name: "Firebase", logo: "https://img.icons8.com/?size=100&id=62452&format=png&color=000000" }
 ];
 
 

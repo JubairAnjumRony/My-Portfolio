@@ -5,6 +5,7 @@ import AboutMeSection from './AboutMeSection';
 import ContactSection from './ContactSection';
 import SkillsSection from './SkillsSection';
 import ProjectsSection from './ProjectsSection';
+import './../index.css'
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -42,7 +43,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="h-[80px] place-content-center shadow-md text-white fixed top-0 left-0 right-0 z-30 border-b border-blue-500 backdrop-blur-md">
+            <nav className="navbar h-[80px] place-content-center shadow-md text-white fixed top-0 left-0 right-0 z-30 border-b border-blue-500 backdrop-blur-md rounded-2xl">
                 <div className="container mx-auto flex justify-center items-center py-4 px-2">
                     {/* Logo Section */}
                     <div className="flex items-center">
@@ -82,13 +83,18 @@ const Navbar = () => {
                 {/* Mobile Navigation Menu */}
                 <div
                     className={`${menuOpen ? 'left-0' : '-left-full'
-                        } absolute duration-500 w-full bg-[#041c50] shadow-md z-50`}
+                        } flex flex-col navbar absolute duration-500    shadow-md z-50 pt-8 mt-8`}
                 >
+
+                         
+                    
+                
+                    
                     <div className="flex flex-col gap-4 py-4 px-4">
                         {['home', 'about', 'skills', 'projects', 'contact'].map((item) => (
                             <a
                                 key={item}
-                                onClick={() => handleScrollToSection(item)}
+                                onClick={() => {handleScrollToSection(item);  setMenuOpen(false);}}
                                 className={`${activeItem === item
                                     ? 'block text-lg font-semibold border-b-2 border-teal-500 text-teal-400'
                                     : 'block text-base hover:text-teal-400 pt-2'
@@ -96,9 +102,23 @@ const Navbar = () => {
                             >
                                 {item.charAt(0).toUpperCase() + item.slice(1)}
                             </a>
+
+
+                              
+
                         ))}
                     </div>
+                            {/* Close Button inside Mobile Menu */}
+                            <div className="
+                            ">
+                               <IoMdClose
+                                 onClick={() => setMenuOpen(false)}
+                                 className="text-3xl cursor-pointer text-teal-400"
+                               />
+                             </div>
+                      
                 </div>
+                
             </nav>
 
             {/* Sections */}

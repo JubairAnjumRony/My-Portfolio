@@ -61,7 +61,7 @@ const HeroSection = () => {
                         transition={{ duration: .5 }}
                         className="flex gap-4 mt-6">
                         <a
-                            href='https://drive.google.com/file/d/1uGs-zyaDkmHX_tlXrrtQ3snn0UJVMQb6/view?usp=sharing' // Replace with the path to your resume
+                            href='https://drive.google.com/file/d/1Dod7iir4TKsJ-ojkjwjei4k64ur5qyzE/view?usp=sharing' // Replace with the path to your resume
                             target='_blank'
                             download
                             className="border duration-300 border-blue-600 hover:bg-blue-900 text-white md:text-lg py-2 px-6 rounded-lg font-semibold shadow-md transition"
@@ -77,7 +77,7 @@ const HeroSection = () => {
                     </motion.div>
 
                     {/* Social Links */}
-                    <motion.div
+                    {/* <motion.div
                         initial={{ y: 100, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ duration: .5 }}
@@ -106,8 +106,8 @@ const HeroSection = () => {
                         >
                             <FaFacebook size={32} />
                         </a>
-                    </motion.div>
-                </div>
+                    </motion.div>*/}
+                </div> 
 
                 {/* Right Content (MERN Image) */}
                 <motion.img

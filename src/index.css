@@ -5,10 +5,20 @@
 @tailwind utilities;
 
 body {
-    background: linear-gradient(to left, #040b22, #011947);
+    /* background: linear-gradient(to left, #040b22, #011947); */
+
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     height: 100%;
 }
 
 .roboto {
     font-family: "Roboto", serif;
 }
+
+
+.navbar {
+    background: rgba(15, 32, 39, 0.8); /* Slightly transparent dark */
+    backdrop-filter: blur(10px);
+    color: #ffffff; /* White text */
+  }
+  

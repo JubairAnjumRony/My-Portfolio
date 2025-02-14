@@ -7,20 +7,21 @@ import { motion } from "framer-motion";
 const projectData = [
     {
         id: 1,
-        name: 'Query Hive',
-        description: 'QueryHive is a web application designed to facilitate the submission, management, and recommendation of user-generated queries related to various products. Users can log in, create, update, and delete their queries, as well as recommend queries submitted by others. The app also features Google-based authentication for a seamless user experience.',
-        image: 'https://i.ibb.co.com/rxkyJ2G/Screenshot-1.png',
-        liveLink: 'https://ask-and-recommend.web.app/',
-        clientLink: 'https://github.com/masud2005/query-hive-client',
-        serverLink: 'https://github.com/masud2005/query-hive-server',
+        name: 'ParcelTrackr',
+        description: 'Parcel Management System -A parcel tracking and management website where there are three dashbards for three types of roles.Here user place the order, Admin assign deliveryMan and deliveryMan delivers it.',
+        image: 'https://i.ibb.co.com/7tgXMjvb/Screenshot-2025-02-13-175623.png  ',
+        liveLink: 'https://parceltrackr-24489.web.app',
+        clientLink: 'https://github.com/JubairAnjumRony/ParcelTrackr-client',
+        serverLink: 'https://github.com/JubairAnjumRony/ParcelTrackr-server',
         technologiesUsed: {
             frontend: [
                 'React: A JavaScript library for building user interfaces.',
                 'React Router Dom: For navigation and routing.',
                 'Axios: For API communication.',
+                'Stripe for payment gateway implementation',
                 'Framer Motion: Animation library for enhancing UI transitions.',
                 'Tailwind CSS & DaisyUI: Styling framework for fast and responsive design.',
-                'SweetAlert2: For customizable alerts.'
+                'React leaflet to show the delivered location'
             ],
             backend: [
                 'Node.js: JavaScript runtime for the server-side application.',
@@ -33,17 +34,17 @@ const projectData = [
                 'Authentication with Email/password and Google-based authentication.'
             ]
         },
-        challengesFaced: 'Implementing real-time updates for query recommendations and handling complex state management.',
-        futurePlans: 'Adding AI-based query recommendations and improving user engagement with notifications.'
+        challengesFaced: 'Implementing real-time updates for delivery status and handling complex state management.',
+        futurePlans: 'Real Time parcel Tracking of the rider and delivery Truck and send updates using message and gmail.'
     },
     {
         id: 2,
-        name: 'Job Portal',
-        description: 'Our Job Portal website is a user-friendly platform designed to bridge the gap between employers and job seekers. It enables companies to post job openings and manage applications while providing job seekers with a streamlined process for browsing, applying for, and managing job opportunities.',
-        image: 'https://i.ibb.co.com/sHpW1jD/Screenshot-2.png',
-        liveLink: 'https://job-portal-cc199.web.app/',
-        clientLink: 'https://github.com/masud2005/job-portal-client',
-        serverLink: 'https://github.com/masud2005/job-portal-server',
+        name: 'BetterPick',
+        description: 'BetterPick is a custom website to recommend user to chosoe their desired and value for money product.The product could be anthing like technological product,cosmetics or anything',
+        image: 'https://i.ibb.co.com/6cvnpGdB/Screenshot-2025-02-14-194100.png',
+        liveLink: 'https://assignment-11-b34c0.web.app/',
+        clientLink: 'https://github.com/JubairAnjumRony/BetterPick-clientside',
+        serverLink: 'https://github.com/JubairAnjumRony/BetterPick-serverside',
         technologiesUsed: {
             frontend: [
                 'React: A JavaScript library for building user interfaces.',
@@ -51,7 +52,8 @@ const projectData = [
                 'Axios: For API communication.',
                 'Framer Motion: Animation library for enhancing UI transitions.',
                 'Tailwind CSS & DaisyUI: Styling framework for fast and responsive design.',
-                'SweetAlert2: For customizable alerts.'
+                'Backend Api to fetch and store data from database'
+
             ],
             backend: [
                 'Node.js: JavaScript runtime for the server-side application.',
@@ -64,16 +66,16 @@ const projectData = [
                 'Authentication with Email/password and Google-based authentication.'
             ]
         },
-        challengesFaced: 'Ensuring data consistency between employers and job seekers, and optimizing performance for large datasets.',
-        futurePlans: 'Integrating AI-based job recommendations and enhancing resume parsing functionality.'
+        challengesFaced: '',
+        futurePlans: 'Integrating AI-based job recommendations and enhancing recommendation parsing functionality.'
     },
     {
         id: 3,
-        name: 'Sports Equipment Management System',
-        description: 'The Sports Equipment Management System is a full-stack web application designed to facilitate managing, listing, and updating sports equipment details. This application enables users to add, view, update, and delete equipment, along with user authentication for secure access.',
-        image: 'https://i.ibb.co.com/L1v9QsK/Screenshot-3.png',
-        liveLink: 'https://sports-equipment-store-c035a.web.app/',
-        clientLink: 'https://github.com/masud2005/A10-sports-equipment-store-client',
+        name: 'SportyBros',
+        description: 'SportyBros is a custom website made for sports enthusiast people.Here sport lover people can get their all sports equipments under one shop..',
+        image: 'https://i.ibb.co.com/B5CYQVRy/Screenshot-2025-02-14-194401.png ',
+        liveLink: 'https://assignment-10-55618.web.app/',
+        clientLink: 'https://github.com/JubairAnjumRony/SportyBros-client',
         serverLink: 'https://github.com/masud2005/A10-sports-equipment-store-server',
         details: 'Detailed description of the Dance School project, challenges faced, improvements planned, etc.',
         technologiesUsed: {

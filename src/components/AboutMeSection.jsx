@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBriefcase, FaCode, FaProjectDiagram } from 'react-icons/fa';
 // import myPhoto from '../assets/my-profile.jpeg'
-import profile from '../assets/profile.jpg'
+import portfolio1 from '../assets/portfolio1.png'
 import { motion } from "framer-motion";
 
 const AboutMeSection = () => {
@@ -28,11 +28,8 @@ const AboutMeSection = () => {
                         transition={{ duration: .5 }}
                     >
                         <img
-                            // src={myPhoto} 
-                            // src="https://i.ibb.co.com/1tWJDkB3/1736586255110.jpg"
-                            // src="https://i.ibb.co.com/MxnZ9hPQ/1736586731255.jpg"
-                            // src="https://i.ibb.co.com/fGQrz39V/1736586255110-removebg-preview.png"
-                            src={profile}
+                     
+                            src={portfolio1}
                             alt="Profile"
                             className="w-[80%] sm:w-[60%] md:w-[50%] md:h-[400px] lg:w-full xl:h-[450px] 2xl:h-[550px] rounded-lg shadow-lg"
                         />
@@ -72,24 +69,22 @@ const AboutMeSection = () => {
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ duration: .5 }}
                         >
-                            My name is Masud Rana. I am from Dinajpur, Bangladesh.
-                            I am currently pursuing my studies at Dinajpur Polytechnic Institute,
-                            working towards a Diploma in Computer Science and Engineering.
-                            I got involved in coding when I joined my diploma program, and coding has become a passion for me ever since.
+                        Hello I am Jubair Anjum Rony.I am currently completing my B.Sc in ICT from Islamic University,Kushtia. I love progrmaing and devlelopemnt from a very young age. I do compettive programing,participate in Hackathon,participate in club activities.My Future goal is to become a software Enginner. My hobby is Travelling, bike riding .
+
                         </motion.p>
                         <motion.p className="mt-4"
                             initial={{ y: 100, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ duration: .5 }}
                         >
-                            <strong>Expected Passing Year:</strong> 2025 <br />
+                            <strong>Expected Passing Year:</strong> 2026 <br />
                             <strong>CGPA:</strong> ---
                         </motion.p>
                         <motion.a
                             initial={{ y: 100, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ duration: .5 }}
-                            href="https://github.com/masud2005"
+                            href="https://github.com/JubairAnjumRony"
                             target="_blank"
                             className="mt-6 inline-block bg-transparent border border-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-900 transition"
                         >

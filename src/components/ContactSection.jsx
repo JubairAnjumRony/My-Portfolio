@@ -57,12 +57,12 @@ const ContactSection = () => {
                 initial={{ x: -100, y: 50, opacity: 0 }}
                 whileInView={{ x: 0, y: 0, opacity: 1 }}
                 transition={{ duration: .5 }}
-                className="mt-2">masud20012005@gmail.com</motion.p>
+                className="mt-2">ronyislam2623@gmail.com</motion.p>
               <motion.a
                 initial={{ x: -100, y: 50, opacity: 0 }}
                 whileInView={{ x: 0, y: 0, opacity: 1 }}
                 transition={{ duration: .5 }}
-                href="mailto:masud20012005@gmail.com"
+                href="mailto:ronyislam2623@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-block px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded text-white"
@@ -85,12 +85,12 @@ const ContactSection = () => {
                 initial={{ x: -100, y: 50, opacity: 0 }}
                 whileInView={{ x: 0, y: 0, opacity: 1 }}
                 transition={{ duration: .5 }}
-                className="mt-2">+8801834140688</motion.p>
+                className="mt-2">+88019494734057</motion.p>
               <motion.a
                 initial={{ x: -100, y: 50, opacity: 0 }}
                 whileInView={{ x: 0, y: 0, opacity: 1 }}
                 transition={{ duration: .5 }}
-                href="https://wa.me/8801834140688"
+                href="https://wa.me/8801949734057"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-block px-4 py-2 bg-green-600 hover:bg-green-500 rounded text-white"
@@ -113,12 +113,12 @@ const ContactSection = () => {
                 initial={{ x: -100, y: 50, opacity: 0 }}
                 whileInView={{ x: 0, y: 0, opacity: 1 }}
                 transition={{ duration: .5 }}
-                className="mt-2">Md. Masud Rana</motion.p>
+                className="mt-2">Rony Islam</motion.p>
               <motion.a
                 initial={{ x: -100, y: 50, opacity: 0 }}
                 whileInView={{ x: 0, y: 0, opacity: 1 }}
                 transition={{ duration: .5 }}
-                href="https://m.me/MasudRana2005"
+                href="https://m.me/jubairrony"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-block px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded text-white"
